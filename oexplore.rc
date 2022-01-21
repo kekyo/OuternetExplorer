@@ -1,0 +1,26 @@
+#include "winver.h"
+#include "resource.h"
+#define IDI_OEICON 100
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION    11, 0, 19041, 1202
+    PRODUCTVERSION 11, 0, 19041, 1202
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904b0"
+        {
+            VALUE "CompanyName",        "Kouji Matsui"
+            VALUE "FileDescription",    "https://github.com/kekyo/OuternetExplorer"
+            VALUE "FileVersion",        "11.0.19041.1202"
+            VALUE "LegalCopyright",     "Copyright (c) 2022 Kouji Matsui (@kozy_kekyo, @kekyo2)"
+            VALUE "OriginalFilename",   "oexplore.exe"
+            VALUE "ProductName",        PRODUCTNAME
+            VALUE "ProductVersion",     "11.0.19041.1202"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x409, 1200
+    }
+}
+IDI_OEICON ICON "images/oexplore.ico"
