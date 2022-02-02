@@ -6,6 +6,12 @@ An old-style web browser stub, comes from Internet Explorer was genocided on Win
 
 Download from: https://github.com/kekyo/OuternetExplorer/releases/download/1.0.0/oexplore.zip
 
+* NOTE: Windows defender will report "Infected with a virus", but it doesn't contain any security risks.
+I feel this is a bug in Windows defender or something Microsoft has thought about this project...
+If you can't believe it, you can verify source code and/or build a binary yourself. It is an OSS project :)
+
+---
+
 ## What's this?
 
 A stub implementation for Internet Explorer ActiveX component (called `MSHTML`, `ShDocVw`, `InternetExplorer.Application` and like). It's simplest replacer for `iexplore.exe`.
